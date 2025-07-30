@@ -1,6 +1,3 @@
-# qrcode library: this library lets us perform all of our qr code related operations
-# pillow library: this library helps us process and save images
-
 import qrcode
 
 website_link = "https://github.com/njihahhnani"
