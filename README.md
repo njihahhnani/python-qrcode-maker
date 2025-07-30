@@ -9,5 +9,7 @@ To install, run this command in VS Code terminal:
 
 ## 🔗 Resources
 [Documentation: qrcode library](https://pypi.org/project/qrcode/)
+
+
 [Documentation: pillow library](https://pypi.org/project/pillow/)
 
