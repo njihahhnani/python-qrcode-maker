@@ -1,0 +1,13 @@
+# qrcode library: this library lets us perform all of our qr code related operations
+# pillow library: this library helps us process and save images
+
+import qrcode
+
+website_link = "https://github.com/njihahhnani"
+
+qr = qrcode.QRCode(version=1, box_size=5, border=5)
+qr.add_data(website_link)
+qr.make()
+
+img = qr.make_image(fill_color='black', back_color='white')
+img.save("github_qr.png")
