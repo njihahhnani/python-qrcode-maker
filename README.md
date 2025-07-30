@@ -5,7 +5,7 @@ To use this functionality, we will need to install two libraries:
 - The pillow library: Helps process and save images
 
 To install, run this command in VS Code terminal:
-'pip install qrcode pillow'
+`pip install qrcode pillow`
 
 ## Resources
 
